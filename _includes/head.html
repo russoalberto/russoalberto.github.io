@@ -15,7 +15,10 @@
     {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 
     <!-- Bing Verification -->
-    {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
+    {% if site.bing_verify %}<meta name="msvalidate.01" content="">{% endif %}
+
+    <!-- Alexa Verification -->
+    {% if site.alexa_verify %}<meta name="alexaVerifyID" content="{{ site.alexa_verify }}">{% endif %}
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" }}">
