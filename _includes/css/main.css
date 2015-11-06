@@ -245,6 +245,11 @@ section.success {
     z-index: 2;
 }
 
+#blog {
+    right: 0;
+    margin: 30px 0 0 0;
+}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
