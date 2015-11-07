@@ -459,3 +459,9 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+
+.navbar-nav > li > div {
+    padding-bottom: 18px;
+    padding-top: 18px;
+}
