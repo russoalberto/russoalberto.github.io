@@ -10,6 +10,7 @@
             </div>
             <div class="row">
                 {% for skill in site.posts.skills %}
+                {% if post.categories contains 'skills' %}
                     <div class="col-sm-4 skill-item">
                         <a href="#skillModal-{{ skill.modal-id }}" class="skill-link" data-toggle="modal">
                             <div class="caption">
@@ -20,6 +21,7 @@
                             <img src="/img/skills/{{ skill.img }}" class="img-responsive" alt="{{ skill.alt }}">
                         </a>
                     </div>
+                {% endif %}
                 {% endfor %}
             </div>
         </div>

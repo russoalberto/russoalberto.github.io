@@ -4,78 +4,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Skills</h2>
+                    <h2>Competenze</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-
-                <div class="col-sm-4 skill-item">
-                    <a href="#skillModal-1" class="skill-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                {% for skill in site.posts.skills %}
+                {% if post.categories contains 'skills' %}
+                    <div class="col-sm-4 skill-item">
+                        <a href="#skillModal-{{ skill.modal-id }}" class="skill-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
                             </div>
-                        </div>
-                        <img src="/img/skills/symfony.png" class="img-responsive" alt="Symfony">
-                    </a>
-                </div>
-
-                <div class="col-sm-4 skill-item">
-                    <a href="#skillModal-2" class="skill-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="/img/skills/angularjs.png" class="img-responsive" alt="AngularJs">
-                    </a>
-                </div>
-
-                <div class="col-sm-4 skill-item">
-                    <a href="#skillModal-3" class="skill-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="/img/skills/lamp.png" class="img-responsive" alt="LAMP">
-                    </a>
-                </div>
-
-                <div class="col-sm-4 skill-item">
-                    <a href="#skillModal-4" class="skill-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="/img/skills/silex.png" class="img-responsive" alt="Silex">
-                    </a>
-                </div>
-
-                <div class="col-sm-4 skill-item">
-                    <a href="#skillModal-5" class="skill-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="/img/skills/cordova.png" class="img-responsive" alt="Cordova">
-                    </a>
-                </div>
-
-                <div class="col-sm-4 skill-item">
-                    <a href="#skillModal-6" class="skill-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="/img/skills/arduino.png" class="img-responsive" alt="Arduino">
-                    </a>
-                </div>
-
+                            <img src="/img/skills/{{ skill.img }}" class="img-responsive" alt="{{ skill.alt }}">
+                        </a>
+                    </div>
+                {% endif %}
+                {% endfor %}
             </div>
         </div>
     </section>
