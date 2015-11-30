@@ -1,5 +1,6 @@
  <!-- skill Modals -->
-{% for skill in site.categories.skills %}
+ {% for skill in site.posts %}
+ {% if skill.categories contains 'skills' %}
     <div class="skill-modal modal fade" id="skillModal-{{ skill.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -28,4 +29,5 @@
             </div>
         </div>
     </div>
+{% endif %}
 {% endfor %}
