@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    {% include it/head.html %}
+    <body id="page-top" class="index">
+    {% include it/nav_blog.html %}
+
+    <section id="post">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-lg-8 col-lg-offset-2">
+		        <h1 class="text-center">
+		          	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a>
+		        </h1>
+		        <hr class="star-light">
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 post-content">
+            	{{content}}
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 text-right">
+            	<span class="post-meta small">Scritto il {{ page.date | date: "%b %-d, %Y" }}</span>
+            </div>
+	        </div>
+	    </div>
+	</section>
+
+    {% include it/footer.html %}
+    {% include js.html %}
+    </body>
+</html>

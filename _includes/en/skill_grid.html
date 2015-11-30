@@ -1,23 +1,23 @@
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section id="skills">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Skill</h2>
+                    <h2>Skills</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                {% for project in site.categories.projects %}
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-{{ project.modal-id }}" class="portfolio-link" data-toggle="modal">
+                {% for skill in site.categories.skills %}
+                    <div class="col-sm-4 skill-item">
+                        <a href="#skillModal-{{ skill.modal-id }}" class="skill-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="/img/portfolio/{{ project.img }}" class="img-responsive" alt="{{ project.alt }}">
+                            <img src="/img/skills/{{ skill.img }}" class="img-responsive" alt="{{ skill.alt }}">
                         </a>
                     </div>
                 {% endfor %}

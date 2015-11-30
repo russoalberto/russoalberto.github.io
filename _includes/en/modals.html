@@ -1,6 +1,6 @@
- <!-- Portfolio Modals -->
-{% for project in site.categories.projects %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ project.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+ <!-- skill Modals -->
+{% for skill in site.categories.skills %}
+    <div class="skill-modal modal fade" id="skillModal-{{ skill.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -12,22 +12,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ project.title }}</h2>
+                            <h2>{{ skill.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ project.img }}" class="img-responsive img-centered" alt="{{ project.alt }}">
-                            <p>{{ project.description }}</p>
+                            <img src="/img/skills/{{ skill.img }}" class="img-responsive img-centered" alt="{{ skill.alt }}" width="70%">
+                            <p>{{ skill.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ project.client }}</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ project.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ project.category }}</a>
-                                    </strong>
+                                <li>Esperienza:
+                                    <strong>{{ skill.experince }}</strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

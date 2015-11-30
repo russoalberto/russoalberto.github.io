@@ -3,7 +3,8 @@ title: Alberto Russo
 email: me@albertorusso.net
 url: https://valix.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Web Developer - Linux System Administrator"
+description_en: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+subtitle: "Web Developer - Linux System Administrator"
 meta_author: Russo Alberto
 
 # Google webmaster tools
@@ -20,15 +21,21 @@ contact: static
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 2c3e50 #80B3FF
+  primary-rgb: "44,62,80" #"128,179,255"
+  secondary: ff581e #FD6E8A
+  secondary-dark: f2541d #A2122F
 
 # Footer settings
 footer:
   copyright: Alberto Russo
-  location: Locations
+  location: Indirizzo
+  social: Collegamenti
+  credits: Credits
+
+footer_en:
+  copyright: Alberto Russo
+  location: Location
   social: Around the Web
   credits: Credits
 

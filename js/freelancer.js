@@ -6,6 +6,8 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
+    var header = document.querySelector( '.navbar-fixed-top' );
+
     $('.page-scroll a').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -13,6 +15,11 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+    var hash = location.hash.split('#')[1];
+    if (hash && hash != "") {
+        classie.add( header, 'navbar-shrink' );
+    }
 });
 
 // Floating label headings for the contact form
