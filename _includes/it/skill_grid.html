@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class="row">
-                {% for skill in site.posts.skills %}
+                {% for skill in site.posts %}
                 {% if post.categories contains 'skills' %}
                     <div class="col-sm-4 skill-item">
                         <a href="#skillModal-{{ skill.modal-id }}" class="skill-link" data-toggle="modal">
