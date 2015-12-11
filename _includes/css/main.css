@@ -119,11 +119,11 @@ header .intro-text .skills {
 }
 
 #blog .container{
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 #post .container{
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 @media(min-width:768px) {
@@ -141,11 +141,11 @@ header .intro-text .skills {
     }
     
     #blog .container{
-        padding-top: 100px;
+        padding-top: 50px;
     }
     
     #post .container{
-        padding-top: 100px;
+        padding-top: 50px;
     }
 }
 
