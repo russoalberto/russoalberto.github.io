@@ -1,14 +1,15 @@
 # Site settings
 title: Alberto Russo
-email: me@albertorusso.net
-url: https://valix.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-description_en: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-subtitle: "Web Developer - Linux System Administrator"
+email: info@albertorusso.it
+url: http://www.albertorusso.it
+description: "Sviluppatore web, esperto Symfony e amministratore di sistema linux, tutto per la realizzazione delle tue applicazioni web e mobile."
+description_en: "Wwb developer, Symfony expert and Linux system administrator, all for the implementation of your applications web and mobile."
+subtitle: "Sviluppatore Web - Amministratore di sistema Linux"
+subtitle_en: "Web Developer - Linux System Administrator"
 meta_author: Russo Alberto
 
 # Google webmaster tools
-google_verify: DrcVneJgjR9juzkGVtr0wDa6VJ0-371lVeOCmGJ_-5Y
+google_verify: sCYYda-4oc8Oopy5au8WHLPZMzj4Phtwtv8ksgCFzBY
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify: 1C5318424199AD200C1EB9F07BF37C01

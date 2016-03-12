@@ -139,11 +139,11 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.75em;
     }
-    
+
     #blog .container{
         padding-top: 50px;
     }
-    
+
     #post .container{
         padding-top: 50px;
     }
@@ -311,6 +311,21 @@ hr {
     border: solid 2px #fff;
     color: #{{ site.color.primary }};
     background: #fff;
+}
+
+.btn-send:hover,
+.btn-send:focus,
+.btn-send:active,
+.btn-send.active {
+    border: solid 2px #fff;
+    color: #fff;
+    background: #{{ site.color.secondary }};
+}
+
+.btn-send {
+    border: solid 2px #fff;
+    color: #fff;
+    background: #{{ site.color.primary }};
 }
 
 .floating-label-form-group {
