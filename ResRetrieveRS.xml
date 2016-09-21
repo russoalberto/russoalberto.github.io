@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OTA_ResRetrieveRS xmlns="http://www.opentravel.org/OTA/2003/05" PrimaryLangID="it" Target="Production" TimeStamp="2016-09-21T15:30:26" Version="4.000">
+    <Success/>
+    <ReservationsList>
+        <HotelReservation LastModifyDateTime="2016-09-21T15:30:26" ResStatus="Waitlisted">
+            <POS>
+                <Source>
+                    <RequestorID ID="10" Type="4"/>
+                </Source>
+            </POS>
+            <RoomStays>
+                <RoomStay>
+                    <RoomTypes>
+                        <RoomType RoomTypeCode="1411" NumberOfUnits="1">
+                            <RoomDescription Name="singola">
+                                <Text>
+                                    Room Description
+                                </Text>
+                            </RoomDescription>
+                        </RoomType>
+                    </RoomTypes>
+                    <RatePlans>
+                        <RatePlan RatePlanCode="STD">
+                            <MealsIncluded MealPlanCodes="3"/>
+                        </RatePlan>
+                    </RatePlans>
+                    <RoomRates>
+                        <RoomRate>
+                            <Rates>
+                                <Rate EffectiveDate="2010-09-06">
+                                    <Discount AmountAfterTax="7.00">
+                                        <DiscountReason>
+                                            <Text>
+                                                10% Per prenotazione anticipata di almeno 20 giorni
+                                            </Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="70.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">
+                                                Mario Rossi, Via Roma 100, Milano
+                                            </ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                            </Rates>
+                        </RoomRate>
+                    </RoomRates>
+                    <GuestCounts>
+                        <GuestCount AgeQualifyingCode="10" Count="1"/>
+                    </GuestCounts>
+                    <TimeSpan End="2016-10-01" Start="2016-09-24"/>
+                    <CancelPenalties>
+                        <CancelPenalty>
+                            <PenaltyDescription>
+                                <Text>
+                                    Penalità di cancellazione
+                                </Text>
+                            </PenaltyDescription>
+                        </CancelPenalty>
+                    </CancelPenalties>
+                    <Discount AmountAfterTax="7.00">
+                        <DiscountReason>
+                            <Text>
+                                10% Per prenotazione anticipata di almeno 20 giorni
+                            </Text>
+                        </DiscountReason>
+                    </Discount>
+                    <Total AmountAfterTax="70.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                    <TPA_Extensions>
+                        <ExtraDetails>
+                            <ExtraDetail DetailName="SendBillTo">
+                                Mario Rossi, Via Roma 100, Milano
+                            </ExtraDetail>
+                        </ExtraDetails>
+                    </TPA_Extensions>
+                    <ResGuestRPHs>
+                        <ResGuestRPH RPH="1"/>
+                    </ResGuestRPHs>
+                    <SpecialRequests>
+                        <SpecialRequest>
+                            <Text>
+                                Richieste Speciali
+                            </Text>
+                        </SpecialRequest>
+                        <SpecialRequest RequestCode="ExtraBeds" NumberOfUnits="1"/>
+                    </SpecialRequests>
+                </RoomStay>
+            </RoomStays>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile RPH="1" ProfileType="1">
+                                <Customer Language="it" Gender="Male" BirthDate="1975-05-14">
+                                    <PersonName>
+                                        <GivenName>Mario</GivenName>
+                                        <Surname>Rossi</Surname>
+                                    </PersonName>
+                                    <Telephone PhoneNumber="+390871123456789" PhoneTechType="1"/>
+                                    <Telephone PhoneNumber="+390871123456789" PhoneTechType="3"/>
+                                    <Telephone PhoneNumber="+393451234567" PhoneTechType="5"/>
+                                    <Email>info@bookingexpert.org</Email>
+                                    <Address>
+                                        <AddressLine>Via San Francesco D'Assisi, 33</AddressLine>
+                                        <CityName>Chieti</CityName>
+                                        <PostalCode>66100</PostalCode>
+                                        <StateProv>CH</StateProv>
+                                        <CountryName>Italy</CountryName>
+                                        <CompanyName>Nexteam S.r.l.</CompanyName>
+                                    </Address>
+                                </Customer>
+                                <TPA_Extensions>
+                                    <ExtraDetails>
+                                        <ExtraDetail DetailName="SendBillTo">
+                                            Mario Rossi, Via Roma 100, Milano
+                                        </ExtraDetail>
+                                    </ExtraDetails>
+                                </TPA_Extensions>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="1"/>
+                </GuestCounts>
+                <TimeSpan End="2016-10-01" Start="2016-09-24"/>
+                <ResGuestRPHs>
+                    <ResGuestRPH RPH="1"/>
+                </ResGuestRPHs>
+                <SpecialRequests>
+                    <SpecialRequest>
+                        <Text>
+                            Richieste Speciali
+                        </Text>
+                    </SpecialRequest>
+                    <SpecialRequest RequestCode="ExtraBeds" NumberOfUnits="1"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="XX" CardNumber="123456789012" ExpireDate="1215">
+                                <CardHolderName>Rossi Mario</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                    <GuaranteeDescription>
+                        <Text>
+                            Carta di Credito a garanzia
+                        </Text>
+                    </GuaranteeDescription>
+                </Guarantee>
+                <CancelPenalties>
+                    <CancelPenalty>
+                        <PenaltyDescription>
+                            <Text>
+                                Penalità di cancellazione
+                            </Text>
+                        </PenaltyDescription>
+                    </CancelPenalty>
+                </CancelPenalties>
+                <Total AmountAfterTax="70.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax Amount="14.70">
+                            <TaxDescription>
+                                <Text>
+                                    IVA 21%
+                                </Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Value="83D75C9-2306092010" ResID_Date="2013-05-10T12:30:00"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
+            <TPA_Extensions>
+                <Promotions>
+                    <Promotion Amount="7.00">
+                        Sconto 10% per anticipo superiore a 20 giorni
+                    </Promotion>
+                </Promotions>
+                <ExtraDetails>
+                    <ExtraDetail DetailName="SendBillTo">
+                        Mario Rossi, Via Roma 100, Milano
+                    </ExtraDetail>
+                </ExtraDetails>
+            </TPA_Extensions>
+        </HotelReservation>
+    </ReservationsList>
+</OTA_ResRetrieveRS>
