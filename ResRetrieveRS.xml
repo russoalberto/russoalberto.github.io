@@ -1,21 +1,530 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<OTA_ResRetrieveRS xmlns="http://www.opentravel.org/OTA/2003/05" PrimaryLangID="it" Target="Production" TimeStamp="2016-09-21T15:30:26" Version="4.000">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<OTA_ResRetrieveRS xmlns="http://www.opentravel.org/OTA/2003/05" PrimaryLangID="it" Target="Production" TimeStamp="2016-09-28T09:37:44" Version="4.000">
     <Success/>
     <ReservationsList>
-        <HotelReservation LastModifyDateTime="2016-09-21T15:30:26" ResStatus="Waitlisted">
+        <HotelReservation LastModifyDateTime="2016-09-27T17:33:19" ResStatus="Reserved">
             <POS>
                 <Source>
-                    <RequestorID ID="10" Type="4"/>
+                    <RequestorID ID="63" Type="4"/>
                 </Source>
             </POS>
             <RoomStays>
                 <RoomStay>
                     <RoomTypes>
-                        <RoomType RoomTypeCode="1411" NumberOfUnits="1">
-                            <RoomDescription Name="singola">
-                                <Text>
-                                    Room Description
-                                </Text>
+                        <RoomType NumberOfUnits="1" RoomType="318" RoomTypeCode="1441">
+                            <RoomDescription Name="Doppia Non Rimborsabile">
+                                <Text>Descrizione della camera</Text>
+                            </RoomDescription>
+                        </RoomType>
+                    </RoomTypes>
+                    <RatePlans>
+                        <RatePlan RatePlanCode="NR">
+                            <MealsIncluded MealPlanCodes="14"/>
+                        </RatePlan>
+                    </RatePlans>
+                    <RoomRates>
+                        <RoomRate>
+                            <Rates>
+                                <Rate EffectiveDate="2016-12-05">
+                                    <Total AmountAfterTax="53.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-06">
+                                    <Discount AmountAfterTax="5.30">
+                                        <DiscountReason/>
+                                    </Discount>
+                                    <Total AmountAfterTax="53.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-07">
+                                    <Total AmountAfterTax="53.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                            </Rates>
+                        </RoomRate>
+                    </RoomRates>
+                    <GuestCounts>
+                        <GuestCount AgeQualifyingCode="10" Count="2"/>
+                    </GuestCounts>
+                    <TimeSpan End="2016-12-08" Start="2016-12-05"/>
+                    <Discount AmountAfterTax="15.90">
+                        <DiscountReason/>
+                    </Discount>
+                    <Total AmountAfterTax="159.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                    <SpecialRequests>
+                        <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                    </SpecialRequests>
+                </RoomStay>
+            </RoomStays>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile ProfileType="1" RPH="60389">
+                                <Customer BirthDate="1970-10-25">
+                                    <PersonName>
+                                        <Surname>Giuseppe Esposito</Surname>
+                                    </PersonName>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="3"/>
+                                    <Telephone PhoneNumber="+393456789123" PhoneTechType="5"/>
+                                    <Address>
+                                        <AddressLine>Via Roma 100</AddressLine>
+                                        <CityName>Milano</CityName>
+                                        <PostalCode>00000</PostalCode>
+                                        <StateProv>MI</StateProv>
+                                        <CountryName>Italy</CountryName>
+                                        <CompanyName>BookingExpert</CompanyName>
+                                    </Address>
+                                </Customer>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="2"/>
+                </GuestCounts>
+                <TimeSpan End="2016-12-08" Start="2016-12-05"/>
+                <ResGuestRPHs>
+                    <ResGuestRPH RPH="60389"/>
+                </ResGuestRPHs>
+                <SpecialRequests>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="MC" CardNumber="123456789085186" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Giuseppe Esposito</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                </Guarantee>
+                <Total AmountAfterTax="159.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax Amount="21.00">
+                            <TaxDescription>
+                                <Text>IVA 21%</Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Date="2016-09-27T17:33:19" ResID_Value="63-1441-6276"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
+            <TPA_Extensions>
+                <Promotions>
+                    <Promotion>Descrizione della promozione</Promotion>
+                </Promotions>
+            </TPA_Extensions>
+        </HotelReservation>
+        <HotelReservation LastModifyDateTime="2016-09-27T09:53:14" ResStatus="Reserved">
+            <POS>
+                <Source>
+                    <RequestorID ID="63" Type="4"/>
+                </Source>
+            </POS>
+            <RoomStays>
+                <RoomStay>
+                    <RoomTypes>
+                        <RoomType NumberOfUnits="1" RoomType="315" RoomTypeCode="1423">
+                            <RoomDescription Name="tripla bb"/>
+                        </RoomType>
+                    </RoomTypes>
+                    <RatePlans>
+                        <RatePlan RatePlanCode="STD">
+                            <MealsIncluded MealPlanCodes="3"/>
+                        </RatePlan>
+                    </RatePlans>
+                    <RoomRates>
+                        <RoomRate>
+                            <Rates>
+                                <Rate EffectiveDate="2016-11-20">
+                                    <Discount AmountAfterTax="5.23">
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="52.25" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-11-21">
+                                    <Discount>
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="52.25" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-11-22">
+                                    <Discount AmountAfterTax="5.23">
+                                        <DiscountReason/>
+                                    </Discount>
+                                    <Total AmountAfterTax="52.25" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-11-23">
+                                    <Discount AmountAfterTax="5.23">
+                                        <DiscountReason/>
+                                    </Discount>
+                                    <Total AmountAfterTax="52.25" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                            </Rates>
+                        </RoomRate>
+                    </RoomRates>
+                    <GuestCounts>
+                        <GuestCount AgeQualifyingCode="10" Count="3"/>
+                        <GuestCount AgeQualifyingCode="8" Count="1"/>
+                    </GuestCounts>
+                    <TimeSpan End="2016-11-24" Start="2016-11-20"/>
+                    <CancelPenalties>
+                        <CancelPenalty>
+                            <PenaltyDescription>
+                                <Text>Prima notte</Text>
+                            </PenaltyDescription>
+                        </CancelPenalty>
+                    </CancelPenalties>
+                    <Discount AmountAfterTax="20.90">
+                        <DiscountReason/>
+                    </Discount>
+                    <Total AmountAfterTax="209.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                    <TPA_Extensions>
+                        <ExtraDetails>
+                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                        </ExtraDetails>
+                    </TPA_Extensions>
+                    <SpecialRequests>
+                        <SpecialRequest>
+                            <Text>Colazione in camera; servizi in camera</Text>
+                        </SpecialRequest>
+                        <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                    </SpecialRequests>
+                </RoomStay>
+            </RoomStays>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile ProfileType="1" RPH="60280">
+                                <Customer BirthDate="1970-10-25" Gender="Male" Language="IT">
+                                    <PersonName>
+                                        <GivenName>Pietro Rossi</GivenName>
+                                        <Surname>Rossi</Surname>
+                                    </PersonName>
+                                    <Address>
+                                        <AddressLine>Via Roma 100</AddressLine>
+                                        <PostalCode>00000</PostalCode>
+                                        <CountryName>Italy</CountryName>
+                                        <CompanyName>BookingExpert</CompanyName>
+                                    </Address>
+                                </Customer>
+                                <TPA_Extensions>
+                                    <ExtraDetails>
+                                        <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                        <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                    </ExtraDetails>
+                                </TPA_Extensions>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="3"/>
+                    <GuestCount AgeQualifyingCode="8" Count="1"/>
+                </GuestCounts>
+                <TimeSpan End="2016-11-24" Start="2016-11-20"/>
+                <ResGuestRPHs>
+                    <ResGuestRPH RPH="60280"/>
+                </ResGuestRPHs>
+                <SpecialRequests>
+                    <SpecialRequest>
+                        <Text>posto in garage</Text>
+                    </SpecialRequest>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="MC" CardNumber="123456789050206" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Pietro Rossi</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                    <GuaranteeDescription>
+                        <Text>Carta di credito a garanzia</Text>
+                    </GuaranteeDescription>
+                </Guarantee>
+                <CancelPenalties>
+                    <PenaltyDescription>
+                        <Text>Prima notte</Text>
+                    </PenaltyDescription>
+                </CancelPenalties>
+                <Total AmountAfterTax="209.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax Amount="42.00">
+                            <TaxDescription>
+                                <Text>IVA 21%</Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Date="2016-09-27T09:53:14" ResID_Value="63-1423-8775"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
+        </HotelReservation>
+        <HotelReservation LastModifyDateTime="2016-09-27T18:09:58" ResStatus="Modify">
+            <POS>
+                <Source>
+                    <RequestorID ID="65" Type="4"/>
+                </Source>
+            </POS>
+            <RoomStays>
+                <RoomStay>
+                    <RoomTypes>
+                        <RoomType NumberOfUnits="1" RoomType="318" RoomTypeCode="1439">
+                            <RoomDescription Name="Matrimoniale Non Rimborsabile">
+                                <Text>Descrizione della camera</Text>
+                            </RoomDescription>
+                        </RoomType>
+                    </RoomTypes>
+                    <RatePlans>
+                        <RatePlan RatePlanCode="NR">
+                            <MealsIncluded MealPlanCodes="14"/>
+                        </RatePlan>
+                    </RatePlans>
+                    <RoomRates>
+                        <RoomRate>
+                            <Rates>
+                                <Rate EffectiveDate="2016-12-16">
+                                    <Discount AmountAfterTax="5.13">
+                                        <DiscountReason/>
+                                    </Discount>
+                                    <Total AmountAfterTax="51.29" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-17">
+                                    <Discount AmountAfterTax="5.13">
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="51.29" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-18">
+                                    <Total AmountAfterTax="51.29" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-19">
+                                    <Discount AmountAfterTax="5.13">
+                                        <DiscountReason/>
+                                    </Discount>
+                                    <Total AmountAfterTax="51.29" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-20">
+                                    <Total AmountAfterTax="51.29" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-21">
+                                    <Discount AmountAfterTax="5.13">
+                                        <DiscountReason/>
+                                    </Discount>
+                                    <Total AmountAfterTax="51.29" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-22">
+                                    <Total AmountAfterTax="51.29" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                            </Rates>
+                        </RoomRate>
+                    </RoomRates>
+                    <GuestCounts>
+                        <GuestCount AgeQualifyingCode="10" Count="2"/>
+                    </GuestCounts>
+                    <TimeSpan End="2016-12-23" Start="2016-12-16"/>
+                    <Discount AmountAfterTax="35.90">
+                        <DiscountReason>
+                            <Text>Descrizione della promozione</Text>
+                        </DiscountReason>
+                    </Discount>
+                    <Total AmountAfterTax="359.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                    <TPA_Extensions>
+                        <ExtraDetails>
+                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                        </ExtraDetails>
+                    </TPA_Extensions>
+                    <ResGuestRPHs>
+                        <ResGuestRPH RPH="60421"/>
+                    </ResGuestRPHs>
+                    <SpecialRequests>
+                        <SpecialRequest>
+                            <Text>Colazione in camera; servizi in camera</Text>
+                        </SpecialRequest>
+                        <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                    </SpecialRequests>
+                </RoomStay>
+                <RoomStay>
+                    <RoomTypes>
+                        <RoomType NumberOfUnits="1" RoomType="313" RoomTypeCode="1409">
+                            <RoomDescription Name="doppia bb"/>
+                        </RoomType>
+                    </RoomTypes>
+                    <RatePlans>
+                        <RatePlan RatePlanCode="STD">
+                            <MealsIncluded MealPlanCodes="3"/>
+                        </RatePlan>
+                    </RatePlans>
+                    <TimeSpan End="2016-12-23" Start="2016-12-16"/>
+                    <Total AmountAfterTax="359.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                </RoomStay>
+            </RoomStays>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile ProfileType="3" RPH="60421">
+                                <Customer BirthDate="1970-10-25" Language="IT">
+                                    <PersonName>
+                                        <Surname>Mario Greco</Surname>
+                                    </PersonName>
+                                    <Telephone PhoneNumber="+393456789123" PhoneTechType="5"/>
+                                    <Email>email@address.com</Email>
+                                    <Address>
+                                        <StateProv>MI</StateProv>
+                                    </Address>
+                                </Customer>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="2"/>
+                </GuestCounts>
+                <TimeSpan End="2016-12-23" Start="2016-12-16"/>
+                <ResGuestRPHs/>
+                <SpecialRequests>
+                    <SpecialRequest>
+                        <Text>posto in garage</Text>
+                    </SpecialRequest>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="MC" CardNumber="XXXXXXXXXXXX0231" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Mario Greco</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                    <GuaranteeDescription>
+                        <Text>Carta di credito a garanzia</Text>
+                    </GuaranteeDescription>
+                </Guarantee>
+                <CancelPenalties>
+                    <PenaltyDescription>
+                        <Text>Prima notte</Text>
+                    </PenaltyDescription>
+                </CancelPenalties>
+                <Total AmountAfterTax="718.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax>
+                            <TaxDescription>
+                                <Text>IVA 22%</Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Date="2016-09-27T17:33:18" ResID_Value="65-1439-1341"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
+            <TPA_Extensions>
+                <Promotions>
+                    <Promotion>Descrizione della promozione</Promotion>
+                </Promotions>
+                <ExtraDetails>
+                    <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                    <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                </ExtraDetails>
+            </TPA_Extensions>
+        </HotelReservation>
+        <HotelReservation LastModifyDateTime="2016-09-27T17:33:20" ResStatus="Modify">
+            <POS>
+                <Source>
+                    <RequestorID ID="65" Type="4"/>
+                </Source>
+            </POS>
+            <RoomStays>
+                <RoomStay>
+                    <RoomTypes>
+                        <RoomType NumberOfUnits="1" RoomType="313" RoomTypeCode="1409">
+                            <RoomDescription Name="doppia bb">
+                                <Text>Descrizione della camera</Text>
                             </RoomDescription>
                         </RoomType>
                     </RoomTypes>
@@ -27,64 +536,55 @@
                     <RoomRates>
                         <RoomRate>
                             <Rates>
-                                <Rate EffectiveDate="2010-09-06">
-                                    <Discount AmountAfterTax="7.00">
+                                <Rate EffectiveDate="2016-12-23">
+                                    <Discount AmountAfterTax="5.23">
+                                        <DiscountReason/>
+                                    </Discount>
+                                    <Total AmountAfterTax="52.25" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-24">
+                                    <Discount AmountAfterTax="5.23">
                                         <DiscountReason>
-                                            <Text>
-                                                10% Per prenotazione anticipata di almeno 20 giorni
-                                            </Text>
+                                            <Text>Descrizione della promozione</Text>
                                         </DiscountReason>
                                     </Discount>
-                                    <Total AmountAfterTax="70.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <Total AmountAfterTax="52.25" CurrencyCode="EUR" DecimalPlaces="0"/>
                                     <TPA_Extensions>
                                         <ExtraDetails>
-                                            <ExtraDetail DetailName="SendBillTo">
-                                                Mario Rossi, Via Roma 100, Milano
-                                            </ExtraDetail>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
                                         </ExtraDetails>
                                     </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-25">
+                                    <Total AmountAfterTax="52.25" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-26">
+                                    <Discount>
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="52.25" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
                             </Rates>
                         </RoomRate>
                     </RoomRates>
                     <GuestCounts>
-                        <GuestCount AgeQualifyingCode="10" Count="1"/>
+                        <GuestCount AgeQualifyingCode="10" Count="2"/>
                     </GuestCounts>
-                    <TimeSpan End="2016-10-01" Start="2016-09-24"/>
-                    <CancelPenalties>
-                        <CancelPenalty>
-                            <PenaltyDescription>
-                                <Text>
-                                    Penalità di cancellazione
-                                </Text>
-                            </PenaltyDescription>
-                        </CancelPenalty>
-                    </CancelPenalties>
-                    <Discount AmountAfterTax="7.00">
+                    <TimeSpan End="2016-12-27" Start="2016-12-23"/>
+                    <Discount>
                         <DiscountReason>
-                            <Text>
-                                10% Per prenotazione anticipata di almeno 20 giorni
-                            </Text>
+                            <Text>Descrizione della promozione</Text>
                         </DiscountReason>
                     </Discount>
-                    <Total AmountAfterTax="70.00" CurrencyCode="EUR" DecimalPlaces="0"/>
-                    <TPA_Extensions>
-                        <ExtraDetails>
-                            <ExtraDetail DetailName="SendBillTo">
-                                Mario Rossi, Via Roma 100, Milano
-                            </ExtraDetail>
-                        </ExtraDetails>
-                    </TPA_Extensions>
-                    <ResGuestRPHs>
-                        <ResGuestRPH RPH="1"/>
-                    </ResGuestRPHs>
+                    <Total AmountAfterTax="209.00" CurrencyCode="EUR" DecimalPlaces="0"/>
                     <SpecialRequests>
                         <SpecialRequest>
-                            <Text>
-                                Richieste Speciali
-                            </Text>
+                            <Text>Colazione in camera; servizi in camera</Text>
                         </SpecialRequest>
-                        <SpecialRequest RequestCode="ExtraBeds" NumberOfUnits="1"/>
+                        <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
                     </SpecialRequests>
                 </RoomStay>
             </RoomStays>
@@ -92,30 +592,343 @@
                 <ResGuest>
                     <Profiles>
                         <ProfileInfo>
-                            <Profile RPH="1" ProfileType="1">
-                                <Customer Language="it" Gender="Male" BirthDate="1975-05-14">
+                            <Profile ProfileType="3" RPH="60390">
+                                <Customer BirthDate="1970-10-25" Gender="Male">
                                     <PersonName>
-                                        <GivenName>Mario</GivenName>
-                                        <Surname>Rossi</Surname>
+                                        <GivenName>Luca Romano</GivenName>
+                                        <Surname>Romano</Surname>
                                     </PersonName>
-                                    <Telephone PhoneNumber="+390871123456789" PhoneTechType="1"/>
-                                    <Telephone PhoneNumber="+390871123456789" PhoneTechType="3"/>
-                                    <Telephone PhoneNumber="+393451234567" PhoneTechType="5"/>
-                                    <Email>info@bookingexpert.org</Email>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="3"/>
+                                    <Email>email@address.com</Email>
                                     <Address>
-                                        <AddressLine>Via San Francesco D'Assisi, 33</AddressLine>
-                                        <CityName>Chieti</CityName>
-                                        <PostalCode>66100</PostalCode>
-                                        <StateProv>CH</StateProv>
-                                        <CountryName>Italy</CountryName>
-                                        <CompanyName>Nexteam S.r.l.</CompanyName>
+                                        <AddressLine>Via Roma 100</AddressLine>
+                                        <CityName>Milano</CityName>
+                                        <PostalCode>00000</PostalCode>
+                                        <StateProv>MI</StateProv>
+                                    </Address>
+                                </Customer>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="2"/>
+                </GuestCounts>
+                <TimeSpan End="2016-12-27" Start="2016-12-23"/>
+                <ResGuestRPHs>
+                    <ResGuestRPH RPH="60390"/>
+                </ResGuestRPHs>
+                <SpecialRequests>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="MC" CardNumber="123456789047029" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Luca Romano</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                    <GuaranteeDescription>
+                        <Text>Carta di credito a garanzia</Text>
+                    </GuaranteeDescription>
+                </Guarantee>
+                <CancelPenalties>
+                    <PenaltyDescription>
+                        <Text>Prima notte</Text>
+                    </PenaltyDescription>
+                </CancelPenalties>
+                <Total AmountAfterTax="209.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax Amount="42.00">
+                            <TaxDescription>
+                                <Text>IVA 21%</Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Date="2016-09-27T17:33:20" ResID_Value="65-1409-6257"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
+            <TPA_Extensions>
+                <ExtraDetails>
+                    <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                    <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                </ExtraDetails>
+            </TPA_Extensions>
+        </HotelReservation>
+        <HotelReservation LastModifyDateTime="2016-09-27T17:33:18" ResStatus="Reserved">
+            <POS>
+                <Source>
+                    <RequestorID ID="65" Type="4"/>
+                </Source>
+            </POS>
+            <RoomStays>
+                <RoomStay>
+                    <RoomTypes>
+                        <RoomType NumberOfUnits="1" RoomType="322" RoomTypeCode="1463">
+                            <RoomDescription Name="Tripla Min 3 Notti">
+                                <Text>Descrizione della camera</Text>
+                            </RoomDescription>
+                        </RoomType>
+                    </RoomTypes>
+                    <RatePlans>
+                        <RatePlan RatePlanCode="3NT">
+                            <MealsIncluded MealPlanCodes="3"/>
+                        </RatePlan>
+                    </RatePlans>
+                    <RoomRates>
+                        <RoomRate>
+                            <Rates>
+                                <Rate EffectiveDate="2016-12-23">
+                                    <Discount>
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="53.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-24">
+                                    <Discount AmountAfterTax="5.30">
+                                        <DiscountReason/>
+                                    </Discount>
+                                    <Total AmountAfterTax="53.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-25">
+                                    <Total AmountAfterTax="53.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                            </Rates>
+                        </RoomRate>
+                    </RoomRates>
+                    <GuestCounts>
+                        <GuestCount AgeQualifyingCode="10" Count="3"/>
+                        <GuestCount AgeQualifyingCode="8" Count="1"/>
+                    </GuestCounts>
+                    <TimeSpan End="2016-12-26" Start="2016-12-23"/>
+                    <CancelPenalties>
+                        <CancelPenalty>
+                            <PenaltyDescription>
+                                <Text>Prima notte</Text>
+                            </PenaltyDescription>
+                        </CancelPenalty>
+                    </CancelPenalties>
+                    <Total AmountAfterTax="159.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                    <ResGuestRPHs>
+                        <ResGuestRPH RPH="60388"/>
+                    </ResGuestRPHs>
+                    <SpecialRequests>
+                        <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                    </SpecialRequests>
+                </RoomStay>
+            </RoomStays>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile ProfileType="1" RPH="60388">
+                                <Customer BirthDate="1970-10-25" Gender="Male">
+                                    <PersonName>
+                                        <GivenName>Pietro Benedetti</GivenName>
+                                        <Surname>Benedetti</Surname>
+                                    </PersonName>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="1"/>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="3"/>
+                                    <Email>email@address.com</Email>
+                                    <Address>
+                                        <AddressLine>Via Roma 100</AddressLine>
+                                        <PostalCode>00000</PostalCode>
+                                        <StateProv>MI</StateProv>
                                     </Address>
                                 </Customer>
                                 <TPA_Extensions>
                                     <ExtraDetails>
-                                        <ExtraDetail DetailName="SendBillTo">
-                                            Mario Rossi, Via Roma 100, Milano
-                                        </ExtraDetail>
+                                        <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                        <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                    </ExtraDetails>
+                                </TPA_Extensions>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="3"/>
+                    <GuestCount AgeQualifyingCode="8" Count="1"/>
+                </GuestCounts>
+                <TimeSpan End="2016-12-26" Start="2016-12-23"/>
+                <ResGuestRPHs/>
+                <SpecialRequests>
+                    <SpecialRequest>
+                        <Text>posto in garage</Text>
+                    </SpecialRequest>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="MC" CardNumber="123456789087543" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Pietro Benedetti</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                </Guarantee>
+                <CancelPenalties>
+                    <PenaltyDescription>
+                        <Text>Prima notte</Text>
+                    </PenaltyDescription>
+                </CancelPenalties>
+                <Total AmountAfterTax="159.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax Amount="21.00">
+                            <TaxDescription>
+                                <Text>IVA 21%</Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Date="2016-09-27T17:33:18" ResID_Value="65-1463-6938"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
+            <TPA_Extensions>
+                <Promotions>
+                    <Promotion Amount="10.00">Descrizione della promozione</Promotion>
+                </Promotions>
+                <ExtraDetails>
+                    <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                    <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                </ExtraDetails>
+            </TPA_Extensions>
+        </HotelReservation>
+        <HotelReservation LastModifyDateTime="2016-09-27T09:53:15" ResStatus="Modify">
+            <POS>
+                <Source>
+                    <RequestorID ID="64" Type="4"/>
+                </Source>
+            </POS>
+            <RoomStays>
+                <RoomStay>
+                    <RoomTypes>
+                        <RoomType NumberOfUnits="2" RoomType="316" RoomTypeCode="1428">
+                            <RoomDescription Name="doppia"/>
+                        </RoomType>
+                    </RoomTypes>
+                    <RatePlans>
+                        <RatePlan RatePlanCode="STD">
+                            <MealsIncluded MealPlanCodes="3"/>
+                        </RatePlan>
+                    </RatePlans>
+                    <RoomRates>
+                        <RoomRate>
+                            <Rates>
+                                <Rate EffectiveDate="2016-11-18">
+                                    <Discount AmountAfterTax="2.58">
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="25.80" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                                <Rate EffectiveDate="2016-11-19">
+                                    <Discount AmountAfterTax="2.58">
+                                        <DiscountReason/>
+                                    </Discount>
+                                    <Total AmountAfterTax="25.80" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-11-20">
+                                    <Discount>
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="25.80" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-11-21">
+                                    <Discount>
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="25.80" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-11-22">
+                                    <Discount AmountAfterTax="2.58">
+                                        <DiscountReason/>
+                                    </Discount>
+                                    <Total AmountAfterTax="25.80" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                            </Rates>
+                        </RoomRate>
+                    </RoomRates>
+                    <GuestCounts>
+                        <GuestCount AgeQualifyingCode="10" Count="1"/>
+                    </GuestCounts>
+                    <TimeSpan End="2016-11-23" Start="2016-11-18"/>
+                    <Discount>
+                        <DiscountReason>
+                            <Text>Descrizione della promozione</Text>
+                        </DiscountReason>
+                    </Discount>
+                    <Total AmountAfterTax="129.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                    <SpecialRequests>
+                        <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                    </SpecialRequests>
+                </RoomStay>
+            </RoomStays>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile ProfileType="3" RPH="60283">
+                                <Customer BirthDate="1970-10-25">
+                                    <PersonName>
+                                        <Surname>Luca Bianchi</Surname>
+                                    </PersonName>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="1"/>
+                                    <Telephone PhoneNumber="+393456789123" PhoneTechType="5"/>
+                                    <Address>
+                                        <CityName>Milano</CityName>
+                                        <CountryName>Italy</CountryName>
+                                    </Address>
+                                </Customer>
+                                <TPA_Extensions>
+                                    <ExtraDetails>
+                                        <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                        <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
                                     </ExtraDetails>
                                 </TPA_Extensions>
                             </Profile>
@@ -127,68 +940,1068 @@
                 <GuestCounts>
                     <GuestCount AgeQualifyingCode="10" Count="1"/>
                 </GuestCounts>
-                <TimeSpan End="2016-10-01" Start="2016-09-24"/>
+                <TimeSpan End="2016-11-23" Start="2016-11-18"/>
                 <ResGuestRPHs>
-                    <ResGuestRPH RPH="1"/>
+                    <ResGuestRPH RPH="60283"/>
                 </ResGuestRPHs>
                 <SpecialRequests>
-                    <SpecialRequest>
-                        <Text>
-                            Richieste Speciali
-                        </Text>
-                    </SpecialRequest>
-                    <SpecialRequest RequestCode="ExtraBeds" NumberOfUnits="1"/>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
                 </SpecialRequests>
                 <Guarantee>
                     <GuaranteesAccepted>
                         <GuaranteeAccepted Default="true">
-                            <PaymentCard CardCode="XX" CardNumber="123456789012" ExpireDate="1215">
-                                <CardHolderName>Rossi Mario</CardHolderName>
+                            <PaymentCard CardCode="MC" CardNumber="123456789036692" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Luca Bianchi</CardHolderName>
                             </PaymentCard>
                         </GuaranteeAccepted>
                     </GuaranteesAccepted>
                     <GuaranteeDescription>
-                        <Text>
-                            Carta di Credito a garanzia
-                        </Text>
+                        <Text>Carta di credito a garanzia</Text>
                     </GuaranteeDescription>
                 </Guarantee>
-                <CancelPenalties>
-                    <CancelPenalty>
-                        <PenaltyDescription>
-                            <Text>
-                                Penalità di cancellazione
-                            </Text>
-                        </PenaltyDescription>
-                    </CancelPenalty>
-                </CancelPenalties>
-                <Total AmountAfterTax="70.00" CurrencyCode="EUR" DecimalPlaces="0">
+                <Total AmountAfterTax="259.00" CurrencyCode="EUR" DecimalPlaces="0">
                     <Taxes>
-                        <Tax Amount="14.70">
+                        <Tax Amount="42.00">
                             <TaxDescription>
-                                <Text>
-                                    IVA 21%
-                                </Text>
+                                <Text>IVA 21%</Text>
                             </TaxDescription>
                         </Tax>
                     </Taxes>
                 </Total>
                 <HotelReservationIDs>
-                    <HotelReservationID ResID_Value="83D75C9-2306092010" ResID_Date="2013-05-10T12:30:00"/>
+                    <HotelReservationID ResID_Date="2016-09-27T09:53:15" ResID_Value="64-1428-7167"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
+        </HotelReservation>
+        <HotelReservation LastModifyDateTime="2016-09-27T09:53:15" ResStatus="Modify">
+            <POS>
+                <Source>
+                    <RequestorID ID="64" Type="4"/>
+                </Source>
+            </POS>
+            <RoomStays>
+                <RoomStay>
+                    <RoomTypes>
+                        <RoomType NumberOfUnits="1" RoomType="319" RoomTypeCode="1446">
+                            <RoomDescription Name="Tripla Non Rimborsabile">
+                                <Text>Descrizione della camera</Text>
+                            </RoomDescription>
+                        </RoomType>
+                    </RoomTypes>
+                    <RatePlans>
+                        <RatePlan RatePlanCode="NR">
+                            <MealsIncluded MealPlanCodes="14"/>
+                        </RatePlan>
+                    </RatePlans>
+                    <RoomRates>
+                        <RoomRate>
+                            <Rates>
+                                <Rate EffectiveDate="2016-12-12">
+                                    <Discount AmountAfterTax="5.30">
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="53.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-13">
+                                    <Discount AmountAfterTax="5.30">
+                                        <DiscountReason/>
+                                    </Discount>
+                                    <Total AmountAfterTax="53.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-14">
+                                    <Discount>
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="53.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                            </Rates>
+                        </RoomRate>
+                    </RoomRates>
+                    <GuestCounts>
+                        <GuestCount AgeQualifyingCode="10" Count="3"/>
+                        <GuestCount AgeQualifyingCode="8" Count="1"/>
+                    </GuestCounts>
+                    <TimeSpan End="2016-12-15" Start="2016-12-12"/>
+                    <Discount AmountAfterTax="15.90">
+                        <DiscountReason>
+                            <Text>Descrizione della promozione</Text>
+                        </DiscountReason>
+                    </Discount>
+                    <Total AmountAfterTax="159.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                    <ResGuestRPHs>
+                        <ResGuestRPH RPH="60281"/>
+                    </ResGuestRPHs>
+                    <SpecialRequests>
+                        <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                    </SpecialRequests>
+                </RoomStay>
+            </RoomStays>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile ProfileType="1" RPH="60281">
+                                <Customer Gender="Male" Language="IT">
+                                    <PersonName>
+                                        <GivenName>Giuseppe Gallo</GivenName>
+                                        <Surname>Gallo</Surname>
+                                    </PersonName>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="1"/>
+                                    <Address>
+                                        <AddressLine>Via Roma 100</AddressLine>
+                                        <CityName>Milano</CityName>
+                                        <CompanyName>BookingExpert</CompanyName>
+                                    </Address>
+                                </Customer>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="3"/>
+                    <GuestCount AgeQualifyingCode="8" Count="1"/>
+                </GuestCounts>
+                <TimeSpan End="2016-12-15" Start="2016-12-12"/>
+                <ResGuestRPHs/>
+                <SpecialRequests>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="MC" CardNumber="123456789092702" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Giuseppe Gallo</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                </Guarantee>
+                <CancelPenalties>
+                    <PenaltyDescription>
+                        <Text>Prima notte</Text>
+                    </PenaltyDescription>
+                </CancelPenalties>
+                <Total AmountAfterTax="159.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax Amount="21.00">
+                            <TaxDescription>
+                                <Text>IVA 21%</Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Date="2016-09-27T09:53:15" ResID_Value="64-1446-2615"/>
                 </HotelReservationIDs>
             </ResGlobalInfo>
             <TPA_Extensions>
                 <Promotions>
-                    <Promotion Amount="7.00">
-                        Sconto 10% per anticipo superiore a 20 giorni
-                    </Promotion>
+                    <Promotion>Descrizione della promozione</Promotion>
                 </Promotions>
                 <ExtraDetails>
-                    <ExtraDetail DetailName="SendBillTo">
-                        Mario Rossi, Via Roma 100, Milano
-                    </ExtraDetail>
+                    <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                    <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
                 </ExtraDetails>
             </TPA_Extensions>
+        </HotelReservation>
+        <HotelReservation LastModifyDateTime="2016-09-27T17:33:48" ResStatus="Reserved">
+            <POS>
+                <Source>
+                    <RequestorID ID="66" Type="4"/>
+                </Source>
+            </POS>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile ProfileType="1" RPH="60391">
+                                <Customer BirthDate="1970-10-25" Gender="Male" Language="IT">
+                                    <PersonName>
+                                        <Surname>Luca Rossi</Surname>
+                                    </PersonName>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="1"/>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="3"/>
+                                    <Telephone PhoneNumber="+393456789123" PhoneTechType="5"/>
+                                    <Email>email@address.com</Email>
+                                    <Address>
+                                        <AddressLine>Via Roma 100</AddressLine>
+                                        <CityName>Milano</CityName>
+                                        <PostalCode>00000</PostalCode>
+                                        <CountryName>Italy</CountryName>
+                                    </Address>
+                                </Customer>
+                                <TPA_Extensions>
+                                    <ExtraDetails>
+                                        <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                        <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                    </ExtraDetails>
+                                </TPA_Extensions>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="3"/>
+                    <GuestCount AgeQualifyingCode="8" Count="1"/>
+                </GuestCounts>
+                <TimeSpan End="2016-11-15" Start="2016-11-14"/>
+                <ResGuestRPHs>
+                    <ResGuestRPH RPH="60391"/>
+                </ResGuestRPHs>
+                <SpecialRequests>
+                    <SpecialRequest>
+                        <Text>posto in garage</Text>
+                    </SpecialRequest>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="MC" CardNumber="123456789036574" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Luca Rossi</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                    <GuaranteeDescription>
+                        <Text>Carta di credito a garanzia</Text>
+                    </GuaranteeDescription>
+                </Guarantee>
+                <CancelPenalties>
+                    <PenaltyDescription>
+                        <Text>Prima notte</Text>
+                    </PenaltyDescription>
+                </CancelPenalties>
+                <Total AmountAfterTax="59.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax Amount="0.00">
+                            <TaxDescription>
+                                <Text>IVA 21%</Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Date="2016-09-27T17:33:16" ResID_Value="66-1444-7626"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
+            <TPA_Extensions>
+                <Promotions>
+                    <Promotion Amount="0.00">Descrizione della promozione</Promotion>
+                </Promotions>
+                <ExtraDetails>
+                    <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                    <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                </ExtraDetails>
+            </TPA_Extensions>
+        </HotelReservation>
+        <HotelReservation LastModifyDateTime="2016-09-27T17:33:17" ResStatus="Modify">
+            <POS>
+                <Source>
+                    <RequestorID ID="66" Type="4"/>
+                </Source>
+            </POS>
+            <RoomStays>
+                <RoomStay>
+                    <RoomTypes>
+                        <RoomType NumberOfUnits="2" RoomType="317" RoomTypeCode="1432">
+                            <RoomDescription Name="Singola Non Rimborsabile"/>
+                        </RoomType>
+                    </RoomTypes>
+                    <RatePlans>
+                        <RatePlan RatePlanCode="NR">
+                            <MealsIncluded MealPlanCodes="14"/>
+                        </RatePlan>
+                    </RatePlans>
+                    <RoomRates>
+                        <RoomRate>
+                            <Rates>
+                                <Rate EffectiveDate="2016-12-18">
+                                    <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-19">
+                                    <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-20">
+                                    <Discount>
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-21">
+                                    <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-22">
+                                    <Discount AmountAfterTax="2.56">
+                                        <DiscountReason/>
+                                    </Discount>
+                                    <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-23">
+                                    <Discount>
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-12-24">
+                                    <Discount>
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                            </Rates>
+                        </RoomRate>
+                    </RoomRates>
+                    <GuestCounts>
+                        <GuestCount AgeQualifyingCode="10" Count="1"/>
+                    </GuestCounts>
+                    <TimeSpan End="2016-12-25" Start="2016-12-18"/>
+                    <CancelPenalties>
+                        <CancelPenalty>
+                            <PenaltyDescription>
+                                <Text>Prima notte</Text>
+                            </PenaltyDescription>
+                        </CancelPenalty>
+                    </CancelPenalties>
+                    <Discount AmountAfterTax="17.90">
+                        <DiscountReason>
+                            <Text>Descrizione della promozione</Text>
+                        </DiscountReason>
+                    </Discount>
+                    <Total AmountAfterTax="179.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                    <TPA_Extensions>
+                        <ExtraDetails>
+                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                        </ExtraDetails>
+                    </TPA_Extensions>
+                    <ResGuestRPHs>
+                        <ResGuestRPH RPH="60386"/>
+                    </ResGuestRPHs>
+                    <SpecialRequests>
+                        <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                    </SpecialRequests>
+                </RoomStay>
+            </RoomStays>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile ProfileType="3" RPH="60386">
+                                <Customer Language="IT">
+                                    <PersonName>
+                                        <GivenName>Ricccardo Benedetti</GivenName>
+                                        <Surname>Benedetti</Surname>
+                                    </PersonName>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="1"/>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="3"/>
+                                    <Telephone PhoneNumber="+393456789123" PhoneTechType="5"/>
+                                    <Email>email@address.com</Email>
+                                    <Address>
+                                        <AddressLine>Via Roma 100</AddressLine>
+                                        <CityName>Milano</CityName>
+                                        <PostalCode>00000</PostalCode>
+                                        <StateProv>MI</StateProv>
+                                    </Address>
+                                </Customer>
+                                <TPA_Extensions>
+                                    <ExtraDetails>
+                                        <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                        <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                    </ExtraDetails>
+                                </TPA_Extensions>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="1"/>
+                </GuestCounts>
+                <TimeSpan End="2016-12-25" Start="2016-12-18"/>
+                <ResGuestRPHs/>
+                <SpecialRequests>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="MC" CardNumber="123456789078309" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Ricccardo Benedetti</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                </Guarantee>
+                <Total AmountAfterTax="359.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax Amount="63.00">
+                            <TaxDescription>
+                                <Text>IVA 21%</Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Date="2016-09-27T17:33:17" ResID_Value="66-1432-3606"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
+            <TPA_Extensions>
+                <ExtraDetails>
+                    <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                    <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                </ExtraDetails>
+            </TPA_Extensions>
+        </HotelReservation>
+        <HotelReservation LastModifyDateTime="2016-09-27T09:53:15" ResStatus="Reserved">
+            <POS>
+                <Source>
+                    <RequestorID ID="66" Type="4"/>
+                </Source>
+            </POS>
+            <RoomStays>
+                <RoomStay>
+                    <RoomTypes>
+                        <RoomType NumberOfUnits="2" RoomType="322" RoomTypeCode="1462">
+                            <RoomDescription Name="Tripla Min 3 Notti"/>
+                        </RoomType>
+                    </RoomTypes>
+                    <RatePlans>
+                        <RatePlan RatePlanCode="3NT">
+                            <MealsIncluded MealPlanCodes="3"/>
+                        </RatePlan>
+                    </RatePlans>
+                    <RoomRates>
+                        <RoomRate>
+                            <Rates>
+                                <Rate EffectiveDate="2016-11-21">
+                                    <Total AmountAfterTax="29.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                            </Rates>
+                        </RoomRate>
+                    </RoomRates>
+                    <GuestCounts>
+                        <GuestCount AgeQualifyingCode="10" Count="3"/>
+                        <GuestCount AgeQualifyingCode="8" Count="1"/>
+                    </GuestCounts>
+                    <TimeSpan End="2016-11-22" Start="2016-11-21"/>
+                    <CancelPenalties>
+                        <CancelPenalty>
+                            <PenaltyDescription>
+                                <Text>Prima notte</Text>
+                            </PenaltyDescription>
+                        </CancelPenalty>
+                    </CancelPenalties>
+                    <Total AmountAfterTax="29.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                    <SpecialRequests>
+                        <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                    </SpecialRequests>
+                </RoomStay>
+            </RoomStays>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile ProfileType="1" RPH="60282">
+                                <Customer BirthDate="1970-10-25" Gender="Male">
+                                    <PersonName>
+                                        <Surname>Ricccardo Esposito</Surname>
+                                    </PersonName>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="1"/>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="3"/>
+                                    <Address>
+                                        <AddressLine>Via Roma 100</AddressLine>
+                                        <CityName>Milano</CityName>
+                                        <StateProv>MI</StateProv>
+                                    </Address>
+                                </Customer>
+                                <TPA_Extensions>
+                                    <ExtraDetails>
+                                        <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                        <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                    </ExtraDetails>
+                                </TPA_Extensions>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="3"/>
+                    <GuestCount AgeQualifyingCode="8" Count="1"/>
+                </GuestCounts>
+                <TimeSpan End="2016-11-22" Start="2016-11-21"/>
+                <ResGuestRPHs>
+                    <ResGuestRPH RPH="60282"/>
+                </ResGuestRPHs>
+                <SpecialRequests>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="MC" CardNumber="123456789049652" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Ricccardo Esposito</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                    <GuaranteeDescription>
+                        <Text>Carta di credito a garanzia</Text>
+                    </GuaranteeDescription>
+                </Guarantee>
+                <Total AmountAfterTax="59.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax Amount="0.00">
+                            <TaxDescription>
+                                <Text>IVA 21%</Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Date="2016-09-27T09:53:15" ResID_Value="66-1462-4711"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
+            <TPA_Extensions>
+                <Promotions>
+                    <Promotion Amount="0.00">Descrizione della promozione</Promotion>
+                </Promotions>
+                <ExtraDetails>
+                    <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                    <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                </ExtraDetails>
+            </TPA_Extensions>
+        </HotelReservation>
+        <HotelReservation LastModifyDateTime="2016-09-27T09:53:14" ResStatus="Modify">
+            <POS>
+                <Source>
+                    <RequestorID ID="66" Type="4"/>
+                </Source>
+            </POS>
+            <RoomStays>
+                <RoomStay>
+                    <RoomTypes>
+                        <RoomType NumberOfUnits="1" RoomType="320" RoomTypeCode="1450">
+                            <RoomDescription Name="Singola Min 3 Notti"/>
+                        </RoomType>
+                    </RoomTypes>
+                    <RatePlans>
+                        <RatePlan RatePlanCode="3NT">
+                            <MealsIncluded MealPlanCodes="3"/>
+                        </RatePlan>
+                    </RatePlans>
+                    <RoomRates>
+                        <RoomRate>
+                            <Rates>
+                                <Rate EffectiveDate="2016-11-17">
+                                    <Discount>
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="54.50" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                                <Rate EffectiveDate="2016-11-18">
+                                    <Total AmountAfterTax="54.50" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                            </Rates>
+                        </RoomRate>
+                    </RoomRates>
+                    <GuestCounts>
+                        <GuestCount AgeQualifyingCode="10" Count="1"/>
+                    </GuestCounts>
+                    <TimeSpan End="2016-11-19" Start="2016-11-17"/>
+                    <CancelPenalties>
+                        <CancelPenalty>
+                            <PenaltyDescription>
+                                <Text>Prima notte</Text>
+                            </PenaltyDescription>
+                        </CancelPenalty>
+                    </CancelPenalties>
+                    <Total AmountAfterTax="109.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                    <SpecialRequests>
+                        <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                    </SpecialRequests>
+                </RoomStay>
+            </RoomStays>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile ProfileType="1" RPH="60277">
+                                <Customer BirthDate="1970-10-25" Gender="Male">
+                                    <PersonName>
+                                        <Surname>Carlo Verdi</Surname>
+                                    </PersonName>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="1"/>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="3"/>
+                                    <Telephone PhoneNumber="+393456789123" PhoneTechType="5"/>
+                                    <Email>email@address.com</Email>
+                                    <Address>
+                                        <AddressLine>Via Roma 100</AddressLine>
+                                        <CityName>Milano</CityName>
+                                        <PostalCode>00000</PostalCode>
+                                        <CountryName>Italy</CountryName>
+                                    </Address>
+                                </Customer>
+                                <TPA_Extensions>
+                                    <ExtraDetails>
+                                        <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                        <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                    </ExtraDetails>
+                                </TPA_Extensions>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="1"/>
+                </GuestCounts>
+                <TimeSpan End="2016-11-19" Start="2016-11-17"/>
+                <ResGuestRPHs>
+                    <ResGuestRPH RPH="60277"/>
+                </ResGuestRPHs>
+                <SpecialRequests>
+                    <SpecialRequest>
+                        <Text>posto in garage</Text>
+                    </SpecialRequest>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="MC" CardNumber="123456789080220" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Carlo Verdi</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                </Guarantee>
+                <Total AmountAfterTax="109.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax Amount="21.00">
+                            <TaxDescription>
+                                <Text>IVA 21%</Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Date="2016-09-27T09:53:14" ResID_Value="66-1450-5404"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
+            <TPA_Extensions>
+                <Promotions>
+                    <Promotion>Descrizione della promozione</Promotion>
+                </Promotions>
+            </TPA_Extensions>
+        </HotelReservation>
+        <HotelReservation LastModifyDateTime="2016-09-27T09:53:14" ResStatus="Reserved">
+            <POS>
+                <Source>
+                    <RequestorID ID="66" Type="4"/>
+                </Source>
+            </POS>
+            <RoomStays>
+                <RoomStay>
+                    <RoomTypes>
+                        <RoomType NumberOfUnits="2" RoomType="319" RoomTypeCode="1444">
+                            <RoomDescription Name="Tripla Non Rimborsabile">
+                                <Text>Descrizione della camera</Text>
+                            </RoomDescription>
+                        </RoomType>
+                    </RoomTypes>
+                    <RatePlans>
+                        <RatePlan RatePlanCode="NR">
+                            <MealsIncluded MealPlanCodes="14"/>
+                        </RatePlan>
+                    </RatePlans>
+                    <RoomRates>
+                        <RoomRate>
+                            <Rates>
+                                <Rate EffectiveDate="2016-11-21">
+                                    <Total AmountAfterTax="27.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                </Rate>
+                                <Rate EffectiveDate="2016-11-22">
+                                    <Total AmountAfterTax="27.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                            </Rates>
+                        </RoomRate>
+                    </RoomRates>
+                    <GuestCounts>
+                        <GuestCount AgeQualifyingCode="10" Count="3"/>
+                        <GuestCount AgeQualifyingCode="8" Count="1"/>
+                    </GuestCounts>
+                    <TimeSpan End="2016-11-23" Start="2016-11-21"/>
+                    <CancelPenalties>
+                        <CancelPenalty>
+                            <PenaltyDescription>
+                                <Text>Prima notte</Text>
+                            </PenaltyDescription>
+                        </CancelPenalty>
+                    </CancelPenalties>
+                    <Discount AmountAfterTax="5.40">
+                        <DiscountReason/>
+                    </Discount>
+                    <Total AmountAfterTax="54.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                    <TPA_Extensions>
+                        <ExtraDetails>
+                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                        </ExtraDetails>
+                    </TPA_Extensions>
+                    <SpecialRequests>
+                        <SpecialRequest>
+                            <Text>Colazione in camera; servizi in camera</Text>
+                        </SpecialRequest>
+                        <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                    </SpecialRequests>
+                </RoomStay>
+            </RoomStays>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile ProfileType="3" RPH="60279">
+                                <Customer Language="IT">
+                                    <PersonName>
+                                        <Surname>Antonio Esposito</Surname>
+                                    </PersonName>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="3"/>
+                                    <Email>email@address.com</Email>
+                                    <Address>
+                                        <PostalCode>00000</PostalCode>
+                                        <CountryName>Italy</CountryName>
+                                        <CompanyName>BookingExpert</CompanyName>
+                                    </Address>
+                                </Customer>
+                                <TPA_Extensions>
+                                    <ExtraDetails>
+                                        <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                        <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                    </ExtraDetails>
+                                </TPA_Extensions>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="3"/>
+                    <GuestCount AgeQualifyingCode="8" Count="1"/>
+                </GuestCounts>
+                <TimeSpan End="2016-11-23" Start="2016-11-21"/>
+                <ResGuestRPHs>
+                    <ResGuestRPH RPH="60279"/>
+                </ResGuestRPHs>
+                <SpecialRequests>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="MC" CardNumber="123456789058920" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Antonio Esposito</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                    <GuaranteeDescription>
+                        <Text>Carta di credito a garanzia</Text>
+                    </GuaranteeDescription>
+                </Guarantee>
+                <CancelPenalties>
+                    <PenaltyDescription>
+                        <Text>Prima notte</Text>
+                    </PenaltyDescription>
+                </CancelPenalties>
+                <Total AmountAfterTax="109.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax Amount="21.00">
+                            <TaxDescription>
+                                <Text>IVA 21%</Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Date="2016-09-27T09:53:14" ResID_Value="66-1444-1631"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
+        </HotelReservation>
+        <HotelReservation LastModifyDateTime="2016-09-27T09:53:28" ResStatus="Modify">
+            <POS>
+                <Source>
+                    <RequestorID ID="67" Type="4"/>
+                </Source>
+            </POS>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile ProfileType="1" RPH="60284">
+                                <Customer BirthDate="1970-10-25" Gender="Male" Language="IT">
+                                    <PersonName>
+                                        <Surname>Alessio Lombardi</Surname>
+                                    </PersonName>
+                                    <Telephone PhoneNumber="+3902123456789" PhoneTechType="3"/>
+                                    <Telephone PhoneNumber="+393456789123" PhoneTechType="5"/>
+                                    <Email>email@address.com</Email>
+                                    <Address>
+                                        <PostalCode>00000</PostalCode>
+                                        <CompanyName>BookingExpert</CompanyName>
+                                    </Address>
+                                </Customer>
+                                <TPA_Extensions>
+                                    <ExtraDetails>
+                                        <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                        <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                    </ExtraDetails>
+                                </TPA_Extensions>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="3"/>
+                    <GuestCount AgeQualifyingCode="8" Count="1"/>
+                </GuestCounts>
+                <TimeSpan End="2016-12-04" Start="2016-11-29"/>
+                <ResGuestRPHs>
+                    <ResGuestRPH RPH="60284"/>
+                </ResGuestRPHs>
+                <SpecialRequests>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="MC" CardNumber="123456789073334" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Alessio Lombardi</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                    <GuaranteeDescription>
+                        <Text>Carta di credito a garanzia</Text>
+                    </GuaranteeDescription>
+                </Guarantee>
+                <CancelPenalties>
+                    <PenaltyDescription>
+                        <Text>Prima notte</Text>
+                    </PenaltyDescription>
+                </CancelPenalties>
+                <Total AmountAfterTax="259.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax Amount="42.00">
+                            <TaxDescription>
+                                <Text>IVA 21%</Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Date="2016-09-27T09:53:14" ResID_Value="67-1419-7932"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
+            <TPA_Extensions>
+                <Promotions>
+                    <Promotion Amount="20.00">Descrizione della promozione</Promotion>
+                </Promotions>
+            </TPA_Extensions>
+        </HotelReservation>
+        <HotelReservation LastModifyDateTime="2016-09-27T09:53:06" ResStatus="Reserved">
+            <POS>
+                <Source>
+                    <RequestorID ID="67" Type="4"/>
+                </Source>
+            </POS>
+            <RoomStays>
+                <RoomStay>
+                    <RoomTypes>
+                        <RoomType NumberOfUnits="1" RoomType="317" RoomTypeCode="1431">
+                            <RoomDescription Name="Singola Non Rimborsabile"/>
+                        </RoomType>
+                    </RoomTypes>
+                    <RatePlans>
+                        <RatePlan RatePlanCode="NR">
+                            <MealsIncluded MealPlanCodes="14"/>
+                        </RatePlan>
+                    </RatePlans>
+                    <RoomRates>
+                        <RoomRate>
+                            <Rates>
+                                <Rate EffectiveDate="2016-11-15">
+                                    <Discount>
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="53.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-11-16">
+                                    <Discount AmountAfterTax="5.30">
+                                        <DiscountReason>
+                                            <Text>Descrizione della promozione</Text>
+                                        </DiscountReason>
+                                    </Discount>
+                                    <Total AmountAfterTax="53.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                                <Rate EffectiveDate="2016-11-17">
+                                    <Total AmountAfterTax="53.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                                    <TPA_Extensions>
+                                        <ExtraDetails>
+                                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                                        </ExtraDetails>
+                                    </TPA_Extensions>
+                                </Rate>
+                            </Rates>
+                        </RoomRate>
+                    </RoomRates>
+                    <GuestCounts>
+                        <GuestCount AgeQualifyingCode="10" Count="1"/>
+                    </GuestCounts>
+                    <TimeSpan End="2016-11-18" Start="2016-11-15"/>
+                    <Discount AmountAfterTax="15.90">
+                        <DiscountReason>
+                            <Text>Descrizione della promozione</Text>
+                        </DiscountReason>
+                    </Discount>
+                    <Total AmountAfterTax="159.00" CurrencyCode="EUR" DecimalPlaces="0"/>
+                    <TPA_Extensions>
+                        <ExtraDetails>
+                            <ExtraDetail DetailName="SendBillTo">Mario Rossi, via Roma 100, Milano(MI)</ExtraDetail>
+                            <ExtraDetail DetailName="ArrivalFlightCode">AZ12345678</ExtraDetail>
+                        </ExtraDetails>
+                    </TPA_Extensions>
+                    <SpecialRequests>
+                        <SpecialRequest>
+                            <Text>Colazione in camera; servizi in camera</Text>
+                        </SpecialRequest>
+                        <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                    </SpecialRequests>
+                </RoomStay>
+            </RoomStays>
+            <ResGuests>
+                <ResGuest>
+                    <Profiles>
+                        <ProfileInfo>
+                            <Profile ProfileType="1" RPH="60276">
+                                <Customer>
+                                    <PersonName>
+                                        <Surname>Davide Greco</Surname>
+                                    </PersonName>
+                                    <Email>email@address.com</Email>
+                                    <Address>
+                                        <AddressLine>Via Roma 100</AddressLine>
+                                        <PostalCode>00000</PostalCode>
+                                    </Address>
+                                </Customer>
+                            </Profile>
+                        </ProfileInfo>
+                    </Profiles>
+                </ResGuest>
+            </ResGuests>
+            <ResGlobalInfo>
+                <GuestCounts>
+                    <GuestCount AgeQualifyingCode="10" Count="1"/>
+                </GuestCounts>
+                <TimeSpan End="2016-11-18" Start="2016-11-15"/>
+                <ResGuestRPHs>
+                    <ResGuestRPH RPH="60276"/>
+                </ResGuestRPHs>
+                <SpecialRequests>
+                    <SpecialRequest NumberOfUnits="1" RequestCode="ExtraBeds"/>
+                </SpecialRequests>
+                <Guarantee>
+                    <GuaranteesAccepted>
+                        <GuaranteeAccepted Default="true">
+                            <PaymentCard CardCode="MC" CardNumber="123456789050956" ExpireDate="" SeriesCode="">
+                                <CardHolderName>Davide Greco</CardHolderName>
+                            </PaymentCard>
+                        </GuaranteeAccepted>
+                    </GuaranteesAccepted>
+                    <GuaranteeDescription>
+                        <Text>Carta di credito a garanzia</Text>
+                    </GuaranteeDescription>
+                </Guarantee>
+                <Total AmountAfterTax="159.00" CurrencyCode="EUR" DecimalPlaces="0">
+                    <Taxes>
+                        <Tax Amount="21.00">
+                            <TaxDescription>
+                                <Text>IVA 21%</Text>
+                            </TaxDescription>
+                        </Tax>
+                    </Taxes>
+                </Total>
+                <HotelReservationIDs>
+                    <HotelReservationID ResID_Date="2016-09-27T09:53:06" ResID_Value="67-1431-1438"/>
+                </HotelReservationIDs>
+            </ResGlobalInfo>
         </HotelReservation>
     </ReservationsList>
 </OTA_ResRetrieveRS>
