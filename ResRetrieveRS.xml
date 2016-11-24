@@ -11,8 +11,8 @@
             <RoomStays>
                 <RoomStay>
                     <RoomTypes>
-                        <RoomType NumberOfUnits="1" RoomType="319" RoomTypeCode="1447">
-                            <RoomDescription Name="Tripla Non Rimborsabile">
+                        <RoomType NumberOfUnits="2" RoomType="313" RoomTypeCode="1410">
+                            <RoomDescription Name="Doppia BB">
                                 <Text>Descrizione della camera</Text>
                             </RoomDescription>
                         </RoomType>
