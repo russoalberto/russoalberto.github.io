@@ -68,7 +68,7 @@
                                     </Discount>
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2017-03-99">
+                                <Rate EffectiveDate="2017-03-09">
                                     <Discount AmountAfterTax="2.56">
                                         <DiscountReason>
                                             <Text>Descrizione della promozione</Text>
@@ -83,7 +83,7 @@
                         <GuestCount AgeQualifyingCode="10" Count="3"/>
                         <GuestCount AgeQualifyingCode="8" Count="1"/>
                     </GuestCounts>
-                    <TimeSpan End="2016-11-29" Start="2016-11-22"/>
+                    <TimeSpan End="2017-03-10" Start="2017-03-04"/>
                     <Discount AmountAfterTax="17.90">
                         <DiscountReason>
                             <Text>Descrizione della promozione</Text>
