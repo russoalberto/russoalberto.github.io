@@ -25,7 +25,7 @@
                     <RoomRates>
                         <RoomRate>
                             <Rates>
-                                <Rate EffectiveDate="2016-11-22">
+                                <Rate EffectiveDate="2017-03-04">
                                     <Discount>
                                         <DiscountReason>
                                             <Text>Descrizione della promozione</Text>
@@ -33,10 +33,10 @@
                                     </Discount>
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-23">
+                                <Rate EffectiveDate="2017-03-05">
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-24">
+                                <Rate EffectiveDate="2017-03-06">
                                     <Discount AmountAfterTax="2.56">
                                         <DiscountReason>
                                             <Text>Descrizione della promozione</Text>
@@ -44,7 +44,7 @@
                                     </Discount>
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-25">
+                                <Rate EffectiveDate="2017-03-07">
                                     <Discount AmountAfterTax="2.56">
                                         <DiscountReason>
                                             <Text>Descrizione della promozione</Text>
@@ -52,7 +52,7 @@
                                     </Discount>
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-26">
+                                <Rate EffectiveDate="2017-03-08">
                                     <Discount>
                                         <DiscountReason>
                                             <Text>Descrizione della promozione</Text>
@@ -60,7 +60,7 @@
                                     </Discount>
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-27">
+                                <Rate EffectiveDate="2017-03-09">
                                     <Discount AmountAfterTax="2.56">
                                         <DiscountReason>
                                             <Text>Descrizione della promozione</Text>
@@ -68,7 +68,7 @@
                                     </Discount>
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-28">
+                                <Rate EffectiveDate="2017-03-99">
                                     <Discount AmountAfterTax="2.56">
                                         <DiscountReason>
                                             <Text>Descrizione della promozione</Text>
