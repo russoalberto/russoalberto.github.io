@@ -11,15 +11,15 @@
             <RoomStays>
                 <RoomStay>
                     <RoomTypes>
-                        <RoomType NumberOfUnits="2" RoomType="313" RoomTypeCode="1410">
+                        <RoomType NumberOfUnits="2" RoomType="313" RoomTypeCode="1411">
                             <RoomDescription Name="Doppia BB">
                                 <Text>Descrizione della camera</Text>
                             </RoomDescription>
                         </RoomType>
                     </RoomTypes>
                     <RatePlans>
-                        <RatePlan RatePlanCode="NR">
-                            <MealsIncluded MealPlanCodes="14"/>
+                        <RatePlan RatePlanCode="STD">
+                            <MealsIncluded MealPlanCodes="3"/>
                         </RatePlan>
                     </RatePlans>
                     <RoomRates>
@@ -108,31 +108,31 @@
                     <RoomRates>
                         <RoomRate>
                             <Rates>
-                                <Rate EffectiveDate="2016-11-22">
+                                <Rate EffectiveDate="2017-02-10">
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-23">
+                                <Rate EffectiveDate="2017-02-11">
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-24">
+                                <Rate EffectiveDate="2017-02-12">
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-25">
+                                <Rate EffectiveDate="2017-02-13">
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-26">
+                                <Rate EffectiveDate="2017-02-14">
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-27">
+                                <Rate EffectiveDate="2017-02-15">
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-28">
+                                <Rate EffectiveDate="2017-02-16">
                                     <Total AmountAfterTax="25.57" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
                             </Rates>
                         </RoomRate>
                     </RoomRates>
-                    <TimeSpan End="2016-11-29" Start="2016-11-22"/>
+                    <TimeSpan End="2017-02-16" Start="2017-02-10"/>
                     <Total AmountAfterTax="179.00" CurrencyCode="EUR" DecimalPlaces="0"/>
                 </RoomStay>
             </RoomStays>
@@ -271,7 +271,7 @@
             <RoomStays>
                 <RoomStay>
                     <RoomTypes>
-                        <RoomType NumberOfUnits="1" RoomType="320" RoomTypeCode="1448">
+                        <RoomType NumberOfUnits="1" RoomType="320" RoomTypeCode="1453">
                             <RoomDescription Name="Singola Min 3 Notti">
                                 <Text>Descrizione della camera</Text>
                             </RoomDescription>
@@ -285,34 +285,16 @@
                     <RoomRates>
                         <RoomRate>
                             <Rates>
-                                <Rate EffectiveDate="2016-11-16">
+                                <Rate EffectiveDate="2017-01-20">
                                     <Discount AmountAfterTax="5.13">
                                         <DiscountReason/>
                                     </Discount>
                                     <Total AmountAfterTax="51.29" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-17">
+                                <Rate EffectiveDate="2017-01-21">
                                     <Total AmountAfterTax="51.29" CurrencyCode="EUR" DecimalPlaces="0"/>
                                 </Rate>
-                                <Rate EffectiveDate="2016-11-18">
-                                    <Total AmountAfterTax="51.29" CurrencyCode="EUR" DecimalPlaces="0"/>
-                                </Rate>
-                                <Rate EffectiveDate="2016-11-19">
-                                    <Discount AmountAfterTax="5.13">
-                                        <DiscountReason/>
-                                    </Discount>
-                                    <Total AmountAfterTax="51.29" CurrencyCode="EUR" DecimalPlaces="0"/>
-                                </Rate>
-                                <Rate EffectiveDate="2016-11-20">
-                                    <Discount AmountAfterTax="5.13">
-                                        <DiscountReason/>
-                                    </Discount>
-                                    <Total AmountAfterTax="51.29" CurrencyCode="EUR" DecimalPlaces="0"/>
-                                </Rate>
-                                <Rate EffectiveDate="2016-11-21">
-                                    <Total AmountAfterTax="51.29" CurrencyCode="EUR" DecimalPlaces="0"/>
-                                </Rate>
-                                <Rate EffectiveDate="2016-11-22">
+                                <Rate EffectiveDate="2017-01-22">
                                     <Discount>
                                         <DiscountReason>
                                             <Text>Descrizione della promozione</Text>
@@ -326,7 +308,7 @@
                     <GuestCounts>
                         <GuestCount AgeQualifyingCode="10" Count="1"/>
                     </GuestCounts>
-                    <TimeSpan End="2016-11-23" Start="2016-11-16"/>
+                    <TimeSpan End="2017-01-22" Start="2017-01-20"/>
                     <Total AmountAfterTax="359.00" CurrencyCode="EUR" DecimalPlaces="0"/>
                     <TPA_Extensions>
                         <ExtraDetails>
