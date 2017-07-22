@@ -12,7 +12,7 @@
                 {% for skill in site.posts %}
                 {% if skill.categories contains 'skills' %}
                     <div class="col-sm-4 skill-item text-center">
-                        <a href="#skillModal-{{ skill.modal-id }}" class="skill-link" data-toggle="modal">
+                        <a href="#{{ skill.name }}" class="skill-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
