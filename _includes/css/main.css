@@ -179,6 +179,11 @@ header .intro-text .skills {
     font-weight: 700;
 }
 
+.navbar h1 {
+    font-size: 1em;
+    margin-top: 0;
+}
+
 .navbar a:focus {
     outline: 0;
 }
@@ -319,13 +324,13 @@ hr {
 .btn-send.active {
     border: solid 2px #fff;
     color: #fff;
-    background: #{{ site.color.secondary }};
+    background: #{{ site.color.secondary-dark }};
 }
 
 .btn-send {
     border: solid 2px #fff;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.secondary }};
 }
 
 .floating-label-form-group {
@@ -386,6 +391,16 @@ form .row:first-child .floating-label-form-group {
 
 footer {
     color: #fff;
+}
+
+footer a{
+    color: #fff;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 footer h3 {

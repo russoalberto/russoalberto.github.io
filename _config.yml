@@ -4,7 +4,7 @@ email: info@albertorusso.it
 url: http://www.albertorusso.it
 description: "Sviluppatore web, esperto Symfony e amministratore di sistema linux, tutto per la realizzazione delle tue applicazioni web e mobile."
 description_en: "Web developer, Symfony expert and Linux system administrator, all for the implementation of your applications web and mobile."
-subtitle: "Sviluppatore Web - Amministratore di sistema Linux"
+subtitle: "Full-stack web developer <br> - <br> Amministratore di sistema Linux"
 subtitle_en: "Web Developer - Linux System Administrator"
 meta_author: Russo Alberto
 
@@ -24,8 +24,8 @@ contact: static
 color:
   primary: 2c3e50 #80B3FF
   primary-rgb: "44,62,80" #"128,179,255"
-  secondary: ff581e #FD6E8A
-  secondary-dark: f2541d #A2122F
+  secondary: 0A6B69 #FD6E8A
+  secondary-dark: 0B4644 #A2122F
 
 # Footer settings
 footer:
@@ -57,7 +57,8 @@ social:
 # Postal address (add as many lines as necessary)
 address:
   - line: Via dei Caduti, 109
-  - line: Alessano Lecce 73031
+  - line: Alessano 73031
+  - line: Lecce
 
 # Credits content
 credits: 'Template: <a href="http://startbootstrap.com/template-overviews/freelancer/">Freelancer</a><br>Hosted on <a href="https://pages.github.com/"><img src="https://pages.github.com/images/logo.svg" height="20px" /></a>'
