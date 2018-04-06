@@ -25,7 +25,7 @@
           </nav>
           {% endif %}
 
-          <nav class="cover-navigation navigation--social">
+          <nav class="cover-navigation navigation--social {% if site.posts.size == 0 %}margin-0{% endif %}">
             <ul class="navigation">
             {% if site.author.linkedin_username %}
             <!-- LinkedIn -->
