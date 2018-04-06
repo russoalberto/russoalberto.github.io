@@ -1,0 +1,23 @@
+---
+layout: null
+sitemap:
+exclude: 'yes'
+---
+
+/* TEAM */
+Developer: Alberto Russo
+Twitter: @albertorusso
+Site: http://albertorusso.it
+Location: Alessano, Le, Italy
+						
+/* SITE */
+Last update: {{ site.time | date: "%Y/%m/%d" }}
+Standards: HTML5, CSS3
+Components: Jekyll
+Software: Phpstorm, Gimp
+
+/* THEME */
+Developer and Design: Josh Gerdes
+Twitter: @joshgerdes
+Site: http://joshgerdes.com
+Location: Minneapolis, MN, USA

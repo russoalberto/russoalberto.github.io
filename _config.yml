@@ -1,12 +1,10 @@
 # Site settings
 title: Alberto Russo
-email: info@albertorusso.it
-url: http://www.albertorusso.it
-description: "Sviluppatore web, esperto Symfony e amministratore di sistema linux, tutto per la realizzazione delle tue applicazioni web e mobile."
-description_en: "Web developer, Symfony expert and Linux system administrator, all for the implementation of your applications web and mobile."
-subtitle: "Full-stack web developer - Amministratore di sistema Linux"
-subtitle_en: "Web Developer - Linux System Administrator"
-meta_author: Russo Alberto
+description: 'Sono un <strong>Full stack developer</strong> e mi occupo dello sviluppo di <strong>applicazioni web</strong> e <strong>mobile</strong> prevalentemente in <strong>Symfony</strong>, <strong>Angular/Nodejs</strong> e <strong>Ionic</strong>.'
+url: 'http://albertorusso.it'
+baseurl: ''
+google_analytics: 'UA-35241392-1'
+disqus_shortname: 'albertorusso'
 
 # Google webmaster tools
 google_verify: sCYYda-4oc8Oopy5au8WHLPZMzj4Phtwtv8ksgCFzBY
@@ -17,52 +15,38 @@ bing_verify: 1C5318424199AD200C1EB9F07BF37C01
 # Alexa web analytics toolkit http://www.alexa.com/
 alexa_verify: ORqyzruaqLKGAY2AIYGbm4ZaPhI
 
-# Contact form: comment the line below if you want to stick with the default PHP contact form
-contact: static
+author:
+  name: 'Alberto Russo'
+  email: me@albertorusso.it
+  twitter_username: albertorusso
+  facebook_username: russo.alberto
+  github_username:  russoalberto
+  linkedin_username:  russoalberto
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 2c3e50 #80B3FF
-  primary-rgb: "44,62,80" #"128,179,255"
-  secondary: 0A6B69 #FD6E8A
-  secondary-dark: 0B4644 #A2122F
-
-# Footer settings
-footer:
-  copyright: Alberto Russo
-  location: Indirizzo
-  social: Collegamenti
-  credits: Credits
-
-footer_en:
-  copyright: Alberto Russo
-  location: Location
-  social: Around the Web
-  credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: github
-    url: http://github.com/valix
-  - title: linkedin
-    url: http://it.linkedin.com/in/russoalberto
-  - title: twitter
-    url: http://twitter.com/albertorusso
-  - title: facebook
-    url: http://facebook.com/russo.alberto
-  - title: google-plus
-    url: https://plus.google.com/+AlbertoRussoOS
-
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Via dei Caduti, 109
-  - line: Alessano 73031
-  - line: Lecce
-
-# Credits content
-credits: 'Template: <a href="http://startbootstrap.com/template-overviews/freelancer/">Freelancer</a><br>Hosted on <a href="https://pages.github.com/"><img src="https://pages.github.com/images/logo.svg" height="20px" /></a>'
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
+destination: _site
+paginate: 2
+permalink: /:year/:month/:title/
 markdown: kramdown
-permalink: pretty
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'vendor']

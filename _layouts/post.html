@@ -1,35 +1,22 @@
-<!DOCTYPE html>
-<html>
-    {% include it/head.html %}
-    <body id="page-top" class="index">
-    {% include it/nav_blog.html %}
+---
+layout: default
+comments: true
+---
+<article class="post-container post-container--single">
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="{{ page.date | date: "%Y-%m-%d %H:%M" }}" class="post-meta__date date">{{ page.date | date: "%-d %m %Y" }}</time>
+      {% if page.categories.size > 0 %}
+      &#8226; <span class="post-meta__tags">in {% for category in page.categories %}<a href="{{ site.baseurl }}/categories/#{{ category }}">{{ category }}</a>{% if forloop.last == false %} | {% endif %}{% endfor %}</span>
+      {% endif %}
+    </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
 
-    <section id="post">
-	    <div class="container">
-	        <div class="row">
-	            <div class="col-lg-8 col-lg-offset-2">
-		        <h1 class="text-center">
-		          	<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a>
-		        </h1>
-		        <hr class="star-light">
-            	    </div>
-		    <div class="col-lg-8 col-lg-offset-2 post-content">
-		    {{content}}
-		    </div>
-	            <div class="col-lg-8 col-lg-offset-2 text-right">
-	            	<span class="post-meta small">Scritto il {{ page.date | date: "%-d %b, %Y" }}</span>
-	            </div>
-	        </div>
-	        <br>
-	        <div class="row">
-	            <div class="col-lg-8 col-lg-offset-2">
-	            	<div id="disqus_thread"></div>
-	            </div>
-	        </div>
-	    </div>
-	</section>
-
-    {% include it/footer.html %}
-    {% include js.html %}
-    </body>
-</html>
+  <section class="post">
+    {{ content }}
+  </section>
+  <div class="sharethis-inline-share-buttons"></div>
+  {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+</article>
+{% if page.comments != false %}{% include disqus.html %}{% endif %}

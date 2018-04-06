@@ -1,3 +1,31 @@
 ---
 layout: default
 ---
+
+<div class="main-post-list">
+
+  <ol class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+        <p class="excerpt">{{ post.excerpt | strip_html }}&hellip;</p>
+        <div class="post-list__meta">
+            <time datetime="{{ post.date | date: "%Y-%m-%d %H:%M" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time>
+            {% if post.categories.size > 0 %}
+            &#8226; <span class="post-meta__tags">in {% for category in post.categories %}<a href="{{ site.baseurl }}/categories/#{{ category }}">{{ category }}</a>{% if forloop.last == false %} | {% endif %}{% endfor %}</span>
+            {% endif %}
+        </div>
+        {% if forloop.last == false %}
+        <hr class="post-list__divider">
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+
+  <hr class="post-list__divider">
+
+  {% if paginator.previous_page or paginator.next_page %}
+      {% include pagination.html %}
+  {% endif %}
+
+</div>

@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html>
-    {% include it/head.html %}
-    <body id="page-top" class="index">
-    {% include it/nav.html %}
-    {% include it/header.html %}
-    {% include it/skill_grid.html %}
-    {% include it/about.html %}
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+  {% include head.html %}
 
-    {% if site.contact == "static" %}
-    {% include it/contact_static.html %}
-    {% else %}
-    {% include it/contact.html %}
-    {% endif %}
-    {% include it/modals.html %}
-    {% include it/footer.html %}
-    {% include js.html %}
-    </body>
+  <body>
+    {% include header.html %}
+
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        {{ content }}
+      </div>
+
+      {% include footer.html %}
+    </div>
+  </body>
 </html>
